@@ -62,15 +62,6 @@ body {
     color:#797474;
   }
 
-@media (max-width: 600px) {
-    .textview {
-        width: 100%;
-    }
-    .button {
-        width: 25%;
-        font-size: 20px;
-    }
-}
 
   
   
