@@ -15,7 +15,7 @@ body {
   }
   
   .textview {
-    background: #6d7070;
+    background: grey;
     border: none;
     outline: none;
     border-radius: 15px;
@@ -28,12 +28,12 @@ body {
     color: #000000;
   }
   
-  .button {
-    background: #424444;
+  .number-button {
+    background: gray;
     border: none;
     outline: none;
     border-radius: 50%;
-    box-shadow: -2px -2px 5px #696464, 2px 2px 5px #494a4d;
+    box-shadow: -2px -2px 5px #3b3939, 2px 2px 5px #494a4d;
     width: 60px;
     height: 60px;
     margin: 7px;
@@ -42,10 +42,63 @@ body {
     cursor: pointer;
   }
   
-  .button:active {
-    box-shadow: inset -2px -2px 5px #4a4848, inset 2px 2px 5px #4a4b4c;
+  .number-button:active {
+    box-shadow: inset -2px -2px 5px #2b2b2b, inset 2px 2px 5px #161617;
+  }
+
+  .operator-button{
+    background: #b19f10;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: -2px -2px 5px #eadf4a, 2px 2px 5px #e2df1f;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+  }
+
+  .operator-button:active {
+    box-shadow: inset -2px -2px 5px #e3e01b, inset 2px 2px 5px #9e9a20;
   }
   
+  .clear-button{
+    background: #ff0000;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: -2px -2px 5px #ff0000, 2px 2px 5px #ff0000;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+  }
+
+  .clear-button:active {
+    box-shadow: inset -2px -2px 5px #de6565, inset 2px 2px 5px #eb4242;
+  }
+
+.back-button{
+  background: #00a6ff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: -2px -2px 5px #00a6ff, 2px 2px 5px #00a6ff;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+ }
+
+ .back-button:active {
+  box-shadow: inset -2px -2px 5px #4a4848, inset 2px 2px 5px #4a4b4c;
+}
 
   table {
     border-spacing: 10px;
@@ -61,7 +114,6 @@ body {
     font-size: 16px;
     color:#797474;
   }
-
 
   
   
