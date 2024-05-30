@@ -47,7 +47,7 @@ body {
   }
 
   .operator-button{
-    background: #f38907;
+    background: #fd8d03;
     border: none;
     outline: none;
     border-radius: 50%;
@@ -61,7 +61,7 @@ body {
   }
 
   .operator-button:active {
-    box-shadow: inset -2px -2px 5px #e3e01b, inset 2px 2px 5px #9e9a20;
+    box-shadow: inset -2px -2px 5px #9f5a06, inset 2px 2px 5px #9f5a06;
   }
   
   .clear-button{
@@ -79,7 +79,7 @@ body {
   }
 
   .clear-button:active {
-    box-shadow: inset -2px -2px 5px #de6565, inset 2px 2px 5px #eb4242;
+    box-shadow: inset -2px -2px 5px #b30b0b, inset 2px 2px 5px #b30b0b;
   }
 
 .back-button{
