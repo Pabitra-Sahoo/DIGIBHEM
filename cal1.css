@@ -12,6 +12,7 @@ body {
     border-radius: 25px;
     box-shadow: -5px -5px 10px #5b5a5a, 5px 5px 15px #505153;
     padding: 20px;
+    
   }
   
   .textview {
@@ -32,7 +33,7 @@ body {
     background: gray;
     border: none;
     outline: none;
-    border-radius: 50%;
+    border-radius: 25%;
     box-shadow: -2px -2px 5px #3b3939, 2px 2px 5px #494a4d;
     width: 60px;
     height: 60px;
@@ -50,7 +51,7 @@ body {
     background: #fd8d03;
     border: none;
     outline: none;
-    border-radius: 50%;
+    border-radius: 25%;
     box-shadow: -2px -2px 5px #f38907, 2px 2px 5px #f38907;
     width: 60px;
     height: 60px;
@@ -68,7 +69,7 @@ body {
     background: #ff0000;
     border: none;
     outline: none;
-    border-radius: 50%;
+    border-radius: 25%;
     box-shadow: -2px -2px 5px #ff0000, 2px 2px 5px #ff0000;
     width: 60px;
     height: 60px;
@@ -83,11 +84,11 @@ body {
   }
 
 .back-button{
-  background: #00a6ff;
+  background: #2e7903;
     border: none;
     outline: none;
-    border-radius: 50%;
-    box-shadow: -2px -2px 5px #00a6ff, 2px 2px 5px #00a6ff;
+    border-radius: 25%;
+    box-shadow: -2px -2px 5px #2e7903, 2px 2px 5px #2e7903;
     width: 60px;
     height: 60px;
     margin: 7px;
@@ -112,8 +113,16 @@ body {
 
   #myName{
     font-size: 16px;
-    color:#797474;
+    color:#fd8d03;
   }
 
-  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+}
+
   
