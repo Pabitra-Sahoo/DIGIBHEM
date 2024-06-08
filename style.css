@@ -1,0 +1,175 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+     font-family: 'Arial', sans-serif;
+  }
+  
+  #calculator {
+    background: #000000;
+    border-radius: 25px;
+    box-shadow: -5px -5px 10px #5b5a5a, 5px 5px 15px #505153;
+    padding: 20px;
+    
+  }
+  
+  .textview {
+    background: grey;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: inset -2px -2px 5px #3b3939, inset 2px 2px 5px #babecc;
+    width: 100%;
+    margin: 10px 0;
+    text-align: right;
+    padding: 1500px;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .number-button {
+    background: gray;
+    border: none;
+    outline: none;
+    border-radius: 25%;
+    box-shadow: -2px -2px 5px #3b3939, 2px 2px 5px #494a4d;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+  }
+  
+  .number-button:active {
+    box-shadow: inset -2px -2px 5px #2b2b2b, inset 2px 2px 5px #161617;
+  }
+
+  .operator-button{
+    background: #fd8d03;
+    border: none;
+    outline: none;
+    border-radius: 25%;
+    box-shadow: -2px -2px 5px #f38907, 2px 2px 5px #f38907;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+  }
+
+  .operator-button:active {
+    box-shadow: inset -2px -2px 5px #9f5a06, inset 2px 2px 5px #9f5a06;
+  }
+  
+  .clear-button{
+    background: #ff0000;
+    border: none;
+    outline: none;
+    border-radius: 25%;
+    box-shadow: -2px -2px 5px #ff0000, 2px 2px 5px #ff0000;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+  }
+
+  .clear-button:active {
+    box-shadow: inset -2px -2px 5px #b30b0b, inset 2px 2px 5px #b30b0b;
+  }
+
+.back-button{
+  background: #2e7903;
+    border: none;
+    outline: none;
+    border-radius: 25%;
+    box-shadow: -2px -2px 5px #2e7903, 2px 2px 5px #2e7903;
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    font-size: 22px;
+    color: #020202;
+    cursor: pointer;
+ }
+
+ .back-button:active {
+  box-shadow: inset -2px -2px 5px #4a4848, inset 2px 2px 5px #4a4b4c;
+}
+
+  table {
+    border-spacing: 10px;
+    margin: auto;
+  }
+  
+  .equal {
+    height: 128px;
+    grid-row: span 2;
+  }
+
+  #myName{
+    font-size: 16px;
+    color:#fd8d03;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+}
+
+
+.number-button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
+.operator-button{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
+.clear-button{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
+.mytext{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
+footer{
+  margin-top: auto;
+
+}
+.back-button{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
+.textview {
+  width: 195px;
+  margin: 5px;
+  font-size: 35px;
+  padding: 30px;
+}
+  
